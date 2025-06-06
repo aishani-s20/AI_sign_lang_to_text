@@ -6,7 +6,7 @@ import time
 from textblob import TextBlob
 
 # Load the trained model
-model_dict = pickle.load(open('./model.p', 'rb'))
+model_dict = pickle.load(open('./model2.p', 'rb'))
 model = model_dict['model']
 
 # Initialize webcam
