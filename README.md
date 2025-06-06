@@ -25,11 +25,11 @@ This project implements a real-time Sign Language Recognition system that captur
 ```
 ├── collect_imgs.py          # Step 1: Collect gesture images
 ├── create_dataset.py        # Step 2: Generate dataset with hand landmarks
-├── train_classifier.py      # Step 3: Train Random Forest classifier
+├── train_classifier2.py      # Step 3: Train Random Forest classifier
 ├── inference5.py            # Step 4: Real-time gesture recognition and text output
 ├── data/                    # Folder to store gesture image folders (A-Z, DEL)
 ├── data.pickle              # Serialized feature-label dataset
-├── model.p                  # Trained classifier model
+├── model2.p                  # Trained classifier model
 └── README.md
 ```
 
@@ -86,10 +86,10 @@ Generates `data.pickle` containing features and labels.
 Trains a `RandomForestClassifier` on the dataset:
 
 ```bash
-python train_classifier.py
+python train_classifier2.py
 ```
 
-Creates `model.p` with the trained model.
+Creates `model2.p` with the trained model.
 
 ---
 
